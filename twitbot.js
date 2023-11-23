@@ -26,4 +26,4 @@ const postTweet = (verse) => {
   });
 };
 
-module.exports = {postTweet};
+module.exports = {postTweet}; 
