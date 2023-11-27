@@ -3,11 +3,18 @@ const Twit = require('twit');
 
 //Initializing all tokens and keys
 const client = new Twit({
-  consumerKey: process.env.TWITTER_API_KEY,
-  consumerSecret: process.env.TWITTER_API_SECRET,
-  accessToken: process.env.TWITTER_ACCESS_TOKEN,
-  accessTokenSecret: process.env.WITTER_ACCESS_TOKEN_SECRET
+  consumer_key: process.env.TWITTER_API_KEY,
+  consumer_secret: process.env.TWITTER_API_SECRET,
+  access_token: process.env.TWITTER_ACCESS_TOKEN,
+  access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET
 });
+
+/**
+ * @description
+ * @author
+ * @param {*} verse 
+ * @returns {*} 
+ */
 
 //Post Function
 const postTweet = (verse) => {

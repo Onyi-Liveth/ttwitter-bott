@@ -67,4 +67,4 @@ const bibleVerse = function(){
     ]
 }
 
-module.exports = {bibleVerse};
+module.exports = new bibleVerse();
